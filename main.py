@@ -12,7 +12,9 @@ def main():
     while True:
         choice = db_functions.menu()
 
-        if choice == "add person":
+        if choice == "help":
+            db_functions.cmd_help()
+        elif choice == "add person":
             db_functions.add_person(cursor)
         elif choice == "delete person":
             db_functions.delete_person(cursor)

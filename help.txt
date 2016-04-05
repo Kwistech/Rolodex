@@ -1,0 +1,19 @@
+Rolodex v.1.0 - Johnathon Kwisses (Kwistech)
+
+Program written in Python 3 that stores rolodex information in a SQLite database
+
+Menu Commands:
+==============
+
+Cmd                     Description
+-----------------------------------
+add person              Adds a new person to the rolodex
+delete person           Deletes a person from the rolodex
+update person           Updates a person's information
+list people             Lists all people in the rolodex
+name lookup             Lists a person's information
+letter lookup           Searches the rolodex for all name instances of user input
+number lookup           Searches the rolodex for all number instances of user input
+email lookup            Searches the rolodex for all email instances of user input
+notes lookup            Searches the rolodex for all notes instances of user input
+quit                    Exits the program

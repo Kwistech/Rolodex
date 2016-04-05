@@ -32,6 +32,15 @@ def menu():
     return cmd.lower()
 
 
+def cmd_help():
+    """Displays summary of program and menu command information."""
+    f = open("help.txt")
+    lines = f.readlines()
+
+    for line in lines:
+        print(line.strip("\n"))
+
+
 def add_person(cursor):
     """Adds a person and their information to the database.
 
@@ -124,7 +133,7 @@ def list_people(cursor):
     sql = "select * from people order by name"
     results = cursor.execute(sql)
     people = results.fetchall()
-    print("\nYour Rolodex (name, number, email, notes):\n")
+    print("Your Rolodex (name, number, email, notes):\n")
 
     for person in people:
         name = person[0]
