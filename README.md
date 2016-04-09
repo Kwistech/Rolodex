@@ -1,6 +1,8 @@
 ## Rolodex
 Program written in Python 3 that stores rolodex information in a SQLite database
 
+Check the project's [Wiki](https://github.com/Kwistech/Rolodex/wiki) for more info.
+
 ##Installation
 
 This program is not installed. It is run from the command line.
