@@ -3,7 +3,7 @@ Program written in Python 3 that stores rolodex information in a SQLite database
 
 Check the project's [Wiki](https://github.com/Kwistech/Rolodex/wiki) for more info.
 
-##Installation
+## Installation
 
 This program is not installed. It is run from the command line.
 
@@ -13,7 +13,7 @@ From the program's root directory, run the following:
 
 `python main.py`
 
-##Features
+## Features
 
 The program comes with the basic features for storing contact information:
 
@@ -23,7 +23,7 @@ The program comes with the basic features for storing contact information:
 + Find person by name, number, email, or notes
 + List everyone in the rolodex
 
-##Menu Commands
+## Menu Commands
 Menu Prompt:
 ```
 Welcome to your Rolodex!
